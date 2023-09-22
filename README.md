@@ -1,1 +1,3 @@
 # CodingQuiz3
+1. The runtime complexity for Mini-Max Sum, the current way that it is written, is O(n). While there are two for loops in place, they each run n times over the array, and since constants can be ignored, the runtime is summarized as O(n).
+2. The runtime complexity for HackerRank is O(n^2) I believe, however it is currently incorrectly implemented for recursive performance, meaning that I cannot work out the exact specifications it should be performing at. I believe it is O(n^2) due to the fact that the recursive calls work on a substring with one less character than the call prior, meaning that there will be n number of calls n times, leading to this exponential value.
